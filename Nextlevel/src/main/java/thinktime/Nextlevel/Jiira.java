@@ -31,22 +31,22 @@ public class Jiira {
 			driver.findElement(By.id("ff_6_dropdown")).sendKeys("auto");
 			driver.findElement(By.id("ff_6_message")).sendKeys("Hi Team!");
 			driver.findElement(By.className("ff-btn-submit")).click();
-			Thread.sleep(3000);
-			driver.findElement(By.className("fa-twitter")).click(); 
-	    	driver.navigate().back();
-	    	driver.findElement(By.className("fa-facebook")).click();
-	    	driver.navigate().back();
-	    	driver.findElement(By.className("fa-linkedin")).click();
-	    	driver.navigate().back();
-	    	driver.findElement(By.className("fa-instagram")).click();
-	    	driver.navigate().back();
-	    	driver.findElement(By.className("icon-phone-call2")).click();
-	    	driver.navigate().back();
-	    	driver.findElement(By.className("hm-map-marker")).click();
-	    	driver.navigate().back();
-	    	driver.findElement(By.className("icon-email")).click();
-	     	driver.navigate().back();
-	     	driver.findElement(By.className("fa-phone-alt")).click();
+//			Thread.sleep(3000);
+//			driver.findElement(By.className("fa-twitter")).click(); 
+//	    	driver.navigate().back();
+//	    	driver.findElement(By.className("fa-facebook")).click();
+//	    	driver.navigate().back();
+//	    	driver.findElement(By.className("fa-linkedin")).click();
+//	    	driver.navigate().back();
+//	    	driver.findElement(By.className("fa-instagram")).click();
+//	    	driver.navigate().back();
+//	    	driver.findElement(By.className("icon-phone-call2")).click();
+//	    	driver.navigate().back();
+//	    	driver.findElement(By.className("hm-map-marker")).click();
+//	    	driver.navigate().back();
+//	    	driver.findElement(By.className("icon-email")).click();
+//	     	driver.navigate().back();
+//	     	driver.findElement(By.className("fa-phone-alt")).click();
 		}
 	
 		// TODO Auto-generated method stub
